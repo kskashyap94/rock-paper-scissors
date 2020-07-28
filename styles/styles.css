@@ -142,11 +142,17 @@ body {
 @media (max-width: 700px) {
   .choice {
     font-size: 110px;
+  },
+  .choices {
+    grid-template-columns: none;
   }
 }
 
 @media (max-width: 500px) {
   .choice {
     font-size: 80px;
+  },
+  .choices {
+    grid-template-columns: none;
   }
 }
