@@ -139,7 +139,7 @@ body {
 }
 
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .choice {
     font-size: 110px;
   },
@@ -148,7 +148,7 @@ body {
   }
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .choice {
     font-size: 80px;
   },
